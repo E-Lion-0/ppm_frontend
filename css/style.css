@@ -1,0 +1,250 @@
+.body{
+    margin: 0;
+
+}
+.fixed-top {
+    background-color: #c60800;
+
+}
+.header{
+    background-color: #c60800;
+    z-index: 9999;
+}
+.div{
+    display: block;
+
+}
+.navbar {
+    display: block;
+    align-content: center;
+    padding: 20px 20px 20px 20px;
+    background-color: #c60800;
+
+
+
+
+}
+.header-left-side{
+
+}
+
+.button-sections{
+    background-color: transparent;
+    border-color: white;
+    display: block;
+
+
+}
+.button-sections{
+
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 2px;
+    align-items: center;
+    font-family: "neue-haas-grotesk-display",sans-serif;
+    font-weight: 700;
+    padding: 4px ;
+
+}
+.button-search{
+    display: inline-block;
+    flex:0 0;
+    background-color: transparent;
+    border: 0;
+    margin-left: 20px;
+
+}
+
+.button-email{
+
+    flex:0 0 ;
+    margin-left: 20px;
+
+    background-color: transparent;
+    border: 0;
+    padding: 3px;
+    width: 33px;
+    height: 26px;
+
+}
+.header-logo{
+
+    background-color: transparent;
+    height: 55px;
+    border: 0;
+
+}
+.button-ReadSix{
+
+
+    border: none;
+    background-color: transparent;
+
+
+}
+.im-logo{
+    height: 55px;
+    width: 369px
+}
+
+
+@media screen and (max-width: 768px){
+    .header-date,.title-button-sections{
+        display: none;
+    }
+    .header-logo,.im-logo{
+        width: 215px;
+        height: 32px;
+    }
+
+}
+
+
+.header-date{
+    color: white;
+    background: black;
+
+    text-align: center;
+
+    flex-basis: 100%;
+}
+
+
+.front-space{
+    height: 106px;
+    color: transparent;
+}
+
+
+
+.main{
+    min-width: 0;
+
+
+}
+.site-container {
+
+    max-width: 100%;
+    padding: 1.875rem 0.625rem;
+    margin: auto;
+    justify-content: center;
+    column-gap: 30px;
+    column-count: 2;
+
+
+}
+
+
+.site-content{
+    display: block;
+    flex-direction: column;
+    width: 100%;
+    margin-right: auto;
+    height: auto;
+    overflow: auto;
+}
+.site-ads{
+    margin-right: auto;
+    display: block;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.top-news{
+    background-color: white;
+    align-items: center;
+    align-content: center;
+    display: block;
+
+}
+.big-title{
+    display: block;
+    font-family: "neue-haas-grotesk-display",sans-serif;
+    font-weight: 700;
+     color: #c60800;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-size: 88px;
+    min-width: 0;
+}
+
+
+.big-ad{
+    align-items: center;
+}
+.first-photo{
+    max-width: 100%;
+    object-fit: cover;
+    display: flex;
+    align-self: center;
+}
+.p_title{
+    font-family: "neue-haas-grotesk-display",sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: black;
+}
+
+
+
+
+
+.footer{
+
+    border-color: #c60800;
+    border-top: 5px;
+    padding: 20px 20px 0 20px;
+    display: block;
+    bottom: 0;
+    position: fixed;
+}
+
+.site-footer{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+
+}
+
+/* smaller view than 1024px*/
+@media screen and (max-width: 1064px){
+    .im-search,.button-email,.button-search,.im-email,.im-rs,.site-ads{
+        display: none;
+
+    }
+    .site-container{
+        column-count: 1;
+    }
+    .button-ReadSix{
+        height: 0;
+    }
+    .site-content{
+        max-width: 100%;
+        padding: 30px 20px 30px 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
