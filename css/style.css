@@ -189,6 +189,7 @@
 }
 .first-photo{
     margin-bottom: 0.9375rem;
+    max-width: 734px;
     height: auto;
     position: relative;
     overflow: hidden;
@@ -219,6 +220,9 @@
     display: grid;
     grid-auto-rows:auto auto;
 }
+.three-im{
+    width: 217px;
+}
 /*  "one big new with 2 smaller "  section */
 .one-to-two-news{
     display: grid;
@@ -239,8 +243,19 @@
     padding-left:  1.25rem;
     width: 100%;
 }
+.duo-im{
+    max-width: 246px;
+}
+ /* ads side */
 
-
+.follow-us{
+    display: grid;
+    grid-template-columns: 90px 191px;
+    align-items: center;
+    max-width: 300px;
+    max-height: 81px;
+    gap: 15px;
+}
 
 /* general information */
 text{
@@ -269,7 +284,7 @@ text{
 
 
 .p-right{
-    padding-right:  1.25rem;!important;
+    padding-right:  1.25rem;
 
 }
 .p-left{
@@ -304,15 +319,22 @@ h2 *{
     text-align: center;
     cursor: pointer;
 }
-h5{
-    width: auto;
-    font-size: 1.125rem;
-    letter-spacing: -.01em;
-    line-height: 1.1;
-    font-family: "neue-haas-grotesk-display",sans-serif;
-    font-weight: 700;
-
+h3 *{
+    text-decoration: none;
+    text-transform: none;
+    text-align: left;
+    height: auto;
+    width: 100%;
+    display: block;
+    color: black;
+    font-weight: 600;
+    font-family: "Neue Haas Display", sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.18px;
 }
+
+
 p *{
     display: block;
     font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
@@ -346,9 +368,8 @@ ul{
 .footer-top{
 
     display: flex;
-    max-width: max-content;
     margin: 10px auto 16px auto;
-    align-content: center;
+    justify-content: flex-start;
 
 }
 
@@ -440,8 +461,7 @@ ul{
     .footer-top{
 
         flex-direction: column;
-        justify-content: center;
-
+align-items: center;
     }
     .site-container{
         grid-template-columns: 100%;
@@ -468,6 +488,7 @@ ul{
     .three-im,.photo-left,.duo-im{
         width: 100%;
         height: auto;
+        padding-right: 0;
     }
     img{
     }
@@ -493,6 +514,7 @@ ul{
     .three-news {
         grid-template-columns: auto;
         grid-auto-rows: max-content;
+        padding-bottom: 0;
     }
 
     .three-item{
@@ -504,7 +526,8 @@ ul{
         padding-top:  1.25rem;
         padding-left: 0;
         border-bottom: 1px solid #CCCCCC;
-
+        border-left: none;
+        padding-right: 0;
 
     }
 
